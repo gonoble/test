@@ -13,7 +13,7 @@ public class MakeClientSocket {
 	
 	public MakeClientSocket(){
 		try {
-			socket = new Socket("localhost", 8080);
+			socket = new Socket("192.168.1.92", 8080);
 			writer = new PrintWriter(socket.getOutputStream(), true);
 			reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			
