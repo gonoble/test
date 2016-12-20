@@ -1,5 +1,6 @@
 package network;
 
 public class TestEx {
-//±ÍÇÑÀÌÇü git test¿¡¿ä
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ git testï¿½ï¿½ï¿½ï¿½
+	//ìŠ¹ì°¬ì•„ ìž˜ì™”ë‹¤.testì„±ê³µ
 }
