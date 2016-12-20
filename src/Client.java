@@ -24,7 +24,7 @@ public class Client {
 		 
 		 public ClientChatter(){  
 		  try{
-		   socket = new Socket("localhost", 9002);
+		   socket = new Socket("192.168.1.92", 8080);
 		   
 		   br = new BufferedReader( new InputStreamReader(socket.getInputStream()));
 		   pw = new PrintWriter(socket.getOutputStream());
